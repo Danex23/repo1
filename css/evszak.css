@@ -1,0 +1,21 @@
+body{
+    background-color: orange;
+    color: blue;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    margin: 30px;
+    border: solid 8px goldenrod;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.3);
+}
