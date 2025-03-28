@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <style>
+        input{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="listak.html">LISTÁK</a> |
+        <a href="orarend.html">ÓRAREND</a> |
+        <a href="evszakok.html">ÉVSZAKOK</a> |
+        <a href="urlap.html">ŰRLAP</a> |
+    </nav>
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="Kiss Pista" required>
+            <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="kisspityu@gmail.com" required>
+            <label for="telo">Telefon: </label><input type="number" name="telo" id="telo" required>
+            <label for="lakus">Lakcím: </label><input type="text" name="lakus" id="lakus" required>
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés</legend>
+            <h2>Méret</h2>
+            <input type="radio" name="fityi" id="kis"><label for="kis">25cm</label>
+            <input type="radio" name="fityi" id="kozep"><label for="kozep">32cm</label>
+            <input type="radio" name="fityi" id="nagy"><label for="nagy">55cm</label>
+        </fieldset>
+    </form>
+</body>
+</html>
