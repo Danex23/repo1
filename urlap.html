@@ -33,6 +33,31 @@
             <input type="radio" name="fityi" id="kis"><label for="kis">25cm</label>
             <input type="radio" name="fityi" id="kozep"><label for="kozep">32cm</label>
             <input type="radio" name="fityi" id="nagy"><label for="nagy">55cm</label>
+            <br>
+            <br>
+            <label for="alap">Pizza alap</label>
+            <select name="alap" id="alap" required>
+                <option value="ures"></option>
+                <option value="para">Paradicsoms</option>
+                <option value="tej">Tejfölös</option>
+            </select>
+            <br>
+            <br>
+            <label>Válassz Feltétet</label>
+            <input type="checkbox" name="feltet1" id="feltet1"><label for="feltet1">Szalámi</label>
+            <input type="checkbox" name="feltet2" id="feltet2"><label for="feltet2">Sonka</label>
+            <input type="checkbox" name="feltet3" id="feltet3"><label for="feltet3">Sajt</label>
+            <input type="checkbox" name="feltet4" id="feltet4"><label for="feltet4">Kukorica</label>
+            <input type="checkbox" name="feltet5" id="feltet5"><label for="feltet5">Ananász</label>
+            <input type="checkbox" name="feltet6" id="feltet6"><label for="feltet6">Gomba</label>
+            <br>
+            <br>
+            <label for="üzenet">üzenet a szakácsba</label>
+            <br>
+            <textarea name="üzenet" id="üzenet" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Küldés" onclick="alert('Köszönjük a megrendelést!')">
+            <button type="reset">Törlés</button>
         </fieldset>
     </form>
 </body>
